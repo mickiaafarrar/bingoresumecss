@@ -1,0 +1,25 @@
+@font-face{
+	font-family: GlacialIndifferenceRegular;
+	src: url(GlacialIndifferenceRegular.otf);
+}
+header {
+  margin-top: 0;
+  padding: 5px 5px 15px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, .8);
+}
+body {
+   font-family: GlacialIndifferenceRegular;
+   background-image: url("cloudysky.jpg");
+}
+
+h1, h2, h3 {color: #ED820E;}
+#intro {text-align:center;}
+
+img{height:350px}
+
+a:link, a:visited {color: darkorange;
+                    text-decoration: none;}
+a:hover {text-decoration: underline;}
+
+ul {list-style-image: url('pawprintbullet.png')}
